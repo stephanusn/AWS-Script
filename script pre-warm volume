@@ -1,0 +1,2 @@
+example : 
+sudo dd if=/dev/xvdf of=/dev/null bs=1M
