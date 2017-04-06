@@ -1,0 +1,18 @@
+#Must be 2 EC2 isntance or more
+#In this case, i try to check bandwith from linux amazon & ubuntu server 
+
+#Redhat
+sudo yum --enablerepo=epel install iperf iperf3
+sudo iperf3 -s -p 80
+
+
+#Ubuntu
+sudo apt-get install git gcc make
+git clone https://github.com/esnet/iperf
+cd iperf
+./configure
+sudo make
+sudo make install
+sudo make clean
+sudo ldconfig
+sudo iperf3 -c #put your ip address linux amazon -i 1 -t 10 -p 80
