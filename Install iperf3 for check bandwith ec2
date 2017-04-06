@@ -8,7 +8,7 @@ sudo iperf3 -s -p 80
 
 #Ubuntu
 sudo apt-get install git gcc make
-git clone https://github.com/esnet/iperf
+git clone https://github.com/stephanusn/stephan-iperf.git
 cd iperf
 ./configure
 sudo make
