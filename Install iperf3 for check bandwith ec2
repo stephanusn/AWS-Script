@@ -7,6 +7,7 @@ sudo iperf3 -s -p 80
 
 
 #Ubuntu
+sudo apt-get update
 sudo apt-get install git gcc make
 git clone https://github.com/stephanusn/stephan-iperf.git
 cd iperf
