@@ -1,0 +1,3 @@
+# AWS-Script
+This is script for AWS...
+Hope you enjoy it
