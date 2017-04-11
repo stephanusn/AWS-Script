@@ -3,7 +3,7 @@
 
 #Redhat
 sudo yum --enablerepo=epel install iperf iperf3
-sudo iperf3 -s -p 80
+sudo iperf3 -s -p 80  #listening port 80
 
 
 #Ubuntu
@@ -16,4 +16,4 @@ sudo make
 sudo make install
 sudo make clean
 sudo ldconfig
-sudo iperf3 -c #put your ip address linux amazon -i 1 -t 10 -p 80
+sudo iperf3 -c #put your ip address linux amazon -i 1 -t 10 -p 80 #for10second
